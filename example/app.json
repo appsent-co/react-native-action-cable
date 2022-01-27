@@ -1,0 +1,22 @@
+{
+  "name": "react-native-action-cable-example",
+  "displayName": "ActionCable Example",
+  "expo": {
+    "name": "react-native-action-cable-example",
+    "slug": "react-native-action-cable-example",
+    "description": "Example app for react-native-action-cable",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
