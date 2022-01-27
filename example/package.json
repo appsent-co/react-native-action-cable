@@ -1,5 +1,5 @@
 {
-  "name": "react-native-action-cable-example",
+  "name": "@appsent/react-native-action-cable-example",
   "description": "Example app for react-native-action-cable",
   "version": "0.0.1",
   "private": true,
