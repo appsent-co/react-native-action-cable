@@ -5,18 +5,12 @@ This is a fork of rails' Action Cable client for react-native
 ## Installation
 
 ```sh
-npm install react-native-action-cable
+npm install @appsent-co/react-native-action-cable
 ```
 
 ## Usage
 
-```js
-import { multiply } from "react-native-action-cable";
-
-// ...
-
-const result = await multiply(3, 7);
-```
+Please refer to the Rails documentation.
 
 ## Contributing
 

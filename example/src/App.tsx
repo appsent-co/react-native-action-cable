@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import * as ActionCable from '@appsent/react-native-action-cable';
+import * as ActionCable from '@appsent-co/react-native-action-cable';
 
 export default function App() {
   const [result, setResult] = React.useState<number | undefined>();

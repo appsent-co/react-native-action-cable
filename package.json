@@ -1,10 +1,10 @@
 {
-  "name": "@appsent/react-native-action-cable",
-  "version": "0.1.0",
+  "name": "@appsent-co/react-native-action-cable",
+  "version": "0.1.2",
   "description": "This is a fork of rails' Action Cable client for react-native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
-  "types": "index.d.ts",
+  "types": "./index.d.ts",
   "react-native": "src/index",
   "source": "src/index",
   "files": [
@@ -14,6 +14,7 @@
     "ios",
     "cpp",
     "react-native-action-cable.podspec",
+    "index.d.ts",
     "!lib/typescript/example",
     "!android/build",
     "!ios/build",
