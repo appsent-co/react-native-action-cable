@@ -1,6 +1,6 @@
 {
   "name": "@appsent-co/react-native-action-cable",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "This is a fork of rails' Action Cable client for react-native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",

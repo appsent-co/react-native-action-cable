@@ -9,7 +9,6 @@ const secondsSince = (time) => (now() - time) / 1000;
 
 class ConnectionMonitor {
   constructor(connection) {
-    this.visibilityDidChange = this.visibilityDidChange.bind(this);
     this.connection = connection;
     this.reconnectAttempts = 0;
   }

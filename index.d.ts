@@ -114,6 +114,8 @@ export class ConnectionMonitor<C = Consumer> {
 
   readonly reconnectAttempts: number;
 
+  readonly refreshedAt: Date;
+
   start(): void;
 
   stop(): void;
@@ -125,8 +127,6 @@ export class ConnectionMonitor<C = Consumer> {
   recordConnect(): void;
 
   recordDisconnect(): void;
-
-  visibilityDidChange(this: ConnectionMonitor<C>): void;
 
   static readonly staleThreshold: number;
 
